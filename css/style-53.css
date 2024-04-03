@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    padding: 2vw 2vw;
+
+    display: grid;
+}
+
+.main__section__1 {
+    position: relative;
+}
+
+.main__section__1>img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8vw;
+}
+
+.main__section__1>h1 {
+    font-size: 4.8vw;
+    font-weight: 300;
+}
+
+.main__section__1>img:nth-child(3) {
+    width: 100%;
+}
+
+.main__section__1>p, .main__section__2>div>p, .main__section__3>div>p {
+    font-size: 1.5vw;
+}
+
+.main__section__2, .main__section__3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__section__2>span, .main__section__3>span {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+.main__section__2>img, .main__section__3>img {
+    width: 100%;
+}
+
+.main__section__2>div, .main__section__3>div {
+    display: flex;
+}
+
+.main__section__2>div>h2, .main__section__3>div>h2 {
+    font-size: 3vw;
+    font-weight: 900;
+    color: gray;
+    margin: 0;
+}
+
+.main__section__1, .main__section__2, .main__section__3 {
+    margin: 2vw;
+}
+
+@media  (orientation: landscape) {
+    .main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media  (orientation: portrait) {
+    .main {
+        grid-template-rows: auto 1fr 1fr;
+    }
+
+    .main__section__1>img:nth-child(1) {
+        width: 8vh;
+    }
+    
+    .main__section__1>h1 {
+        font-size: 8vh;
+    }
+    
+    .main__section__1>img:nth-child(3) {
+        width: 100%;
+    }
+    
+    .main__section__1>p, .main__section__2>div>p, .main__section__3>div>p {
+        font-size: 3.5vh;
+    }
+    
+    .main__section__2, .main__section__3 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main__section__2>span, .main__section__3>span {
+        font-size: 2vh;
+        margin-bottom: 1vh;
+    }
+    
+    .main__section__2>img, .main__section__3>img {
+        width: 100%;
+    }
+    
+    .main__section__2>div, .main__section__3>div {
+        display: flex;
+    }
+    
+    .main__section__2>div>h2, .main__section__3>div>h2 {
+        font-size: 3vh;
+        font-weight: 900;
+        color: gray;
+        margin-right: 2vh;
+    }
+    
+    .main__section__1, .main__section__2, .main__section__3 {
+        margin: 2vh;
+    }
+}
