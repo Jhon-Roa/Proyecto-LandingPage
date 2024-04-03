@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main_section{
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../images/images-55/imagen-bg.png);
+    background-position: center;
+    background-size: cover;
+
+    z-index: -1;
+}
+
+.main {
+
+}
+
+@media screen and (max-width: 900px) and (orientation: portrait) {
+    .main_section__bg {
+        background-image: url(../images/images-55/imagen-bg-rotate.png);
+    }
+}
