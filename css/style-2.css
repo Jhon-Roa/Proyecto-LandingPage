@@ -5,11 +5,13 @@
     text-decoration: none;
     list-style: none;
     white-space: pre-line;
+    
+
 }
 .main {
     width: 100%;
-    padding: 2vw;
     padding-top: 0vw;
+    overflow-x: hidden;
 }
 
 .sectio-1 {
@@ -87,23 +89,97 @@ button {
     cursor: pointer;
     border-radius: 16px;
 }
-@media screen and (max-width: 776px) {
+@media screen and (orientation: portrait) {
     .sectio-1 {
         flex-direction: column;
         height: auto;
         align-items: center;
     }
     .img-section-1 {
-        margin-top: 4vw;  
+        margin-top: 4vw; 
+        width: 90vw;
+        justify-content: center;
     }
     .img2-section-1 {
         margin-top: 4vw;  
+        width: 90vw;
+        justify-content: center;
     }
     .img2-section-1 > img{
         align-self: center;
         margin-top: 4vw;  
     }
+    .img-section-1 > img{
+        align-self: center;
+        margin-top: 4vw;  
+
+    }
     .sectio-2 {
         flex-direction: column;
     }
+    .letra{
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+    }
+    .letra > p{
+        font-size: 3vw;
+
+    }
+    .letra > h1{
+        font-size: 5vw;
+    }
+    button {
+        max-width: 50%;
+        background-color: #000000;
+        border: none;
+        color: white;
+        padding: 6px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        height: 100%;
+        cursor: pointer;
+        border-radius: 16px;
+    }
+    .sectio-2 {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    div.im3 {
+        margin-top: 4vw; 
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+    }
+    div.im3 > img {
+        align-self: center;
+        margin-top: 4vw;  
+        
+    }
+    div.im2 {
+        margin-top: 4vw; 
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+    }
+    div.im2 > img {
+        align-self: center;
+        margin-top: 4vw;  
+        
+    }
+    div.im1 {
+        margin-top: 4vw; 
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+    }
+    div.im1 > img {
+        align-self: center;
+        margin-top: 4vw;  
+
+    }
+
 }
