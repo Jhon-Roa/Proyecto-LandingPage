@@ -4,14 +4,17 @@
     white-space: pre-line;
 }
 .section-1 {
-    width: 50%;
+    width: 50vw;
 }
 .main {
     display: flex;
 }
 .section-2 {
-    width: 50%;
+    width: 50vw;
     position: relative;
+}
+.section-2 img {
+    width: 47vw;
 }
 .text {
     margin-left: 3vw;
@@ -103,14 +106,17 @@
         width: max-content;
     }
     .section-1 {
-        width: max-content;
+        margin-left: 1vw;
+        width: 80vw;
         height: 160vw;
     }
     .section-2 {
         width: 100vw;
     }
     .section-2 img {
-        width: 92vw;
+        width: 90vw;
+        margin-top: 19vw;
+        margin-left: 5vw;
     }
     .text > h1 {
         font-size: 9.6vw;
