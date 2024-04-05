@@ -3,17 +3,19 @@
     margin: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .main {
     width: 100vw;
-    height: 100vh;
+    height: 55vw;
 
     background-image: url(../images/images-43/bg.png);
     background-size: 100% 80%;
     background-repeat: no-repeat;
 
     display: grid;
-
-    overflow-x: hidden;
 }
 
 .main__section:nth-child(1) {
@@ -100,18 +102,16 @@
 .main__section:nth-child(2)>img:nth-child(1) {
     position: absolute;
 
-    height: 75%;
+    width: 70%;
     top: 0;
-    left: 3vw;
+    left: 5vw;
 
     z-index: 1;
 }
 
 .main__section:nth-child(2)>img:nth-child(2) {
-    max-width: 70%;
-    height: 90%;
+    width: 80%;
     padding-top: 5vw;
-
     z-index: 2;
 }
 
@@ -182,7 +182,7 @@
     
     .main__section:nth-child(2)>img:nth-child(1) {
         height: 75%;
-        transform: translateX(35%);
+        transform: translateX(15%);
     }
     
     .main__section:nth-child(2)>img:nth-child(2) {
