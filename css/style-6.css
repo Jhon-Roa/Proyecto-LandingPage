@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    white-space: pre-line;
+}
+.section-1 {
+    width: 50%;
+}
+.main {
+    display: flex;
+}
+.section-2 {
+    width: 50%;
+    position: relative;
+}
+.im6 {
+    width: 26vw;
+    position: absolute;
+    right: 16%;
+}
+.im5 {
+    width: 26vw;
+    position: absolute;
+    z-index: -3;
+    top: 5%;
+    right: 24%;
+}
+.im4 {
+    width: 17vw;
+    position: absolute;
+    z-index: -2;
+    top: 39%;
+    right: 12%;
+}
+.im3 {
+    width: 5vw;
+    position: absolute;
+    top: 16%;
+    right: 56%;
+    z-index: 2;
+}
+.im2 {
+    width: 6vw;
+    position: absolute;
+    right: 19%;
+    top: 78%;
+    z-index: 1;
+}
+.im1 {
+    width: 7vw;
+    position: absolute;
+    right: 66%;
+    top: 1%;
+}
+button {
+    position: absolute;
+}
+.bt1 {
+    width: 9vw;
+    right: 55%;
+    top: 90%;
+    z-index: 3;
+}
+.bt2 {
+    width: 10vw;
+    right: 12%;
+    z-index: 3;
+}
+.text {
+    margin-left: 3vw;
+}
+.text > h1 {
+    font-size: 4.6vw;
+}
+.text > p {
+    font-size: 1.7vw;
+}
+.noc {
+    display: flex;
+    border: solid;
+    border-width: 1.5px;
+    justify-content: center;
+    border-radius: 6px;
+    border-color: black;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+.noc > img {
+    margin-left: 5vw;
+}
