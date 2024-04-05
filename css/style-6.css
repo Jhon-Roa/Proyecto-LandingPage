@@ -13,84 +13,6 @@
     width: 50%;
     position: relative;
 }
-.im6 {
-    top: 18%;
-    width: 26vw;
-    position: absolute;
-    right: 16%;
-}
-.im5 {
-    width: 26vw;
-    position: absolute;
-    z-index: -3;
-    top: 5%;
-    right: 24%;
-}
-.im4 {
-    width: 17vw;
-    position: absolute;
-    z-index: -2;
-    top: 39%;
-    right: 12%;
-}
-.im3 {
-    width: 5vw;
-    position: absolute;
-    top: 19%;
-    right: 56%;
-    z-index: 2;
-}
-.im2 {
-    width: 6vw;
-    position: absolute;
-    right: 19%;
-    top: 34.5vw;
-    z-index: 1;
-}
-
-.im1 {
-    width: 7vw;
-    position: absolute;
-    right: 66%;
-    top: 1%;
-}
-.section-2 > button {
-    position: absolute;
-}
-.bt1 {
-    width: 12vw;
-    right: 55%;
-    top: 37.50vw;
-    z-index: 3;
-    font-size: 1.1vw;
-    background-color: #be4fb5;
-    border: none;
-    height: 3vw;
-    color: white;
-    padding: 6px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 10px;
-}
-.bt2 {
-    top: 12vw;
-    font-size: 1.1vw;
-    width: 13vw;
-    right: 12%;
-    z-index: 3;
-    background-color: #be4fb5;
-    border: none;
-    height: 3vw;
-    color: white;
-    padding: 6px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 10px;
-}
 .text {
     margin-left: 3vw;
 }
@@ -168,98 +90,27 @@
         align-items: center;
     }
     .noc {
-        width: 72vw;
+        width: 87vw;
         margin-bottom: 3vw;
     }
     .noc > img {
         margin-left: 2vw;
-        width: 14vw;
+        width: 18vw;
     
     }
-    .im1 {
-        width: 14vw;
-        position: absolute;
-        right: 65vw;
-        top: 2vw;
-    }
-    .im6 {
-        top: 18%;
-        width: 52vw;
-        position: absolute;
-        right: 16%;
-    }
-    .im5 {
-        width: 52vw;
-        position: absolute;
-        z-index: -3;
-        top: 6vw;
-        right: 24%;
-    }
-    .im4 {
-        width: 34vw;
-        position: absolute;
-        z-index: -2;
-        top: 29vw;
-        right: 7%;
-    }
-    .im3 {
-        width: 10vw;
-        position: absolute;
-        top: 17vw;
-        right: 60%;
-        z-index: 2;
-    }
-    .im2 {
-        width: 12vw;
-        position: absolute;
-        right: 19%;
-        top: 67vw;
-        z-index: 1;
-    }
-    .bt1 {
-        width: 22vw;
-        right: 60%;
-        top: 73.50vw;
-        z-index: 3;
-        font-size: 1.5vw;
-        background-color: #be4fb5;
-        border: none;
-        height: 3vw;
-        color: white;
-        padding: 6px 10px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        cursor: pointer;
-        border-radius: 10px;
-    }
+
     .main {
         width: max-content;
-    }
-    .bt2 {
-        top: 19vw;
-        font-size: 1.5vw;
-        width: 21vw;
-        right: 10%;
-        z-index: 3;
-        background-color: #be4fb5;
-        border: none;
-        height: 3vw;
-        color: white;
-        padding: 6px 10px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        cursor: pointer;
-        border-radius: 10px;
     }
     .section-1 {
         width: max-content;
         height: 160vw;
     }
     .section-2 {
-        height: 88vw;
-        width: 100%;
+        width: 100vw;
+    }
+    .section-2 img {
+        width: 92vw;
     }
     .text > h1 {
         font-size: 9.6vw;
@@ -268,14 +119,14 @@
         font-size: 4.4vw;
     }
     .boton1 {
-        width: 16vw;
-        height: 5vw;
-        font-size: 1.9vw;
+        width: 23vw;
+        height: 7vw;
+        font-size: 2.4vw;
     }
     .boton2 {
-        width: 18vw;
-        height: 5vw;
-        font-size: 1.9vw;
+        width: 23vw;
+        height: 7vw;
+        font-size: 2.4vw;
 
     }
     .sello > img{
