@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main {
+    background-image: url(../images/images-29/bg.png);
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+    aspect-ratio: 7/5;
+    display: grid;
+}
+
+.main__section {
+    padding-top: 8vw;
+    padding-left: 5vw;
+    width: 50%;
+}
+
+.main__section>h1 {
+    color: white;
+    font-size: 6vw;
+    line-height: 100%;
+    margin-bottom: 4vw;
+    font-weight: 100;
+}
+
+.main__section>p {
+    color: white;
+    font-size: 1.9vw;
+    margin-bottom: 3vw;
+}
+
+.main__section>article>button {
+    width: 40%;
+    height: 5vw;
+    border: 0;
+    border-radius: 50px;
+
+    font-size: 1.5vw;
+}
+
+.main__footer {
+    display: grid;
+
+    padding: 0 5vw;
+    margin-bottom: 5.5vw;
+}
+
+.main__footer>div:nth-child(1) {
+    background-image: url(../images/images-29/image-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-start-start-radius: 10%;
+    border-end-start-radius: 10%;
+}
+
+.main__footer>div:nth-child(1):hover {
+    transform: scale(1.1);
+    transition: transform 0.3s linear;
+}
+
+.main__footer>div:nth-child(2) {
+    background-image: url(../images/images-29/image-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__footer>div:nth-child(2):hover {
+    transform: scale(1.1);
+    transition: transform 0.3s linear;
+}
+
+.main__footer>div:nth-child(3) {
+    background-image: url(../images/images-29/image-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__footer>div:nth-child(3):hover {
+    transform: scale(1.1);
+    transition: transform 0.3s linear;
+}
+
+.main__footer>div:nth-child(4) {
+    background-image: url(../images/images-29/image-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__footer>div:nth-child(4):hover {
+    transform: scale(1.1);
+    transition: transform 0.3s linear;
+}
+
+.main__footer>div:nth-child(5) {
+    background-image: url(../images/images-29/image-5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__footer>div:nth-child(5):hover {
+    transform: scale(1.1);
+    transition: transform 0.3s linear;
+}
+
+.main__footer>div:nth-child(6) {
+    background-image: url(../images/images-29/image-6.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    border-end-end-radius: 10%;
+    border-start-end-radius: 10%;
+}
+
+.main__footer>div:nth-child(6):hover {
+    transform: scale(1.1);
+    transition: transform 0.3s linear;
+}
+
+@media (orientation: landscape) {
+        .main__footer {
+            grid-template-columns: repeat(6, 1fr);
+        }
+} 
+
+@media (orientation: portrait) {
+    .main {
+        background-size: auto 85%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    
+    .main__section {
+        padding-top: 8vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        width: 100%;
+    }
+    
+    .main__section>h1 {
+        text-align: center;
+        font-size: 11.5vw;
+    }
+    
+    .main__section>p {
+        text-align: center;
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+    
+    .main__section>article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main__section>article>button {
+        width: 40%;
+        height: 8vw;
+    
+        font-size: 3vw;
+        margin-bottom: 10vw;
+    }
+    
+    .main__footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+        padding: 0 5vw;
+        margin-bottom: 5.5vw;
+    }
+       
+    .main__footer>div {
+        height: 30vw;
+    } 
+
+
+    .main__footer>div:nth-child(1) {
+        border-start-start-radius: 10%;
+        border-end-start-radius: 0;
+    }
+    
+    .main__footer>div:nth-child(2) {
+        border-start-end-radius: 10%;
+    }
+
+    .main__footer>div:nth-child(5) {
+        border-end-start-radius: 10%;
+    }
+    .main__footer>div:nth-child(6) {
+        border-end-end-radius: 10%;
+        border-start-end-radius: 0;
+    }
+}
