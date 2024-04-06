@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background: rgb(4,62,73);
+    background: linear-gradient(360deg, rgb(15, 50, 59) 0%, rgb(5, 26, 32) 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.main{
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vi;
+    width: 100%;
+    margin-top: 0;
+    
+}
+.fondo {
+    position: absolute;
+    align-self: flex-end;
+    width: 71vi;
+    z-index: -1;
+}
+
+.section2 {
+    display: flex;
+    margin-top: 19vw;
+    justify-content: space-around;
+    margin-left: 3vw;
+    width: 92vw;
+    border: solid;
+    border-radius: 2vw;
+    border-color: aliceblue;
+    border-width: 0.1vw;
+    backdrop-filter: blur(8px);
+    background-color: rgba(56, 54, 54, 0.5);
+    margin-bottom: 3vw;
+}
+
+
+.section1 {
+    margin-left: 4vw;
+    white-space: pre-line;
+    max-width: 50vw;
+    max-height: 60vw;
+    border: solid;
+    border-width: 0vw;
+    border-radius: 3vw;
+    backdrop-filter: blur(18px);
+    background-color: rgba(88, 89, 102, 0.5);
+}
+.section1 h1 {
+    margin-left: 2vw;
+    font-size: 4.5vw;
+    color: aliceblue;
+    margin-bottom: 1vw;
+}
+.section1 p {
+    margin-left: 2vw;
+    font-size: 2vw;
+    color: aliceblue;
+    margin-top: 1vw;
+}
+button {
+    margin-left: 2vw;
+    margin-top: 1vw;
+    width: 18vw;
+    background-color: #0bb9d8;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4vw;
+    height: 4.3vw;
+    cursor: pointer;
+    border-radius: 27px;
+    margin-bottom: 2vw;
+}
+.section1 img {
+    margin-left: 2vw;
+}
