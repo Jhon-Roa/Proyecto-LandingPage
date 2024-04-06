@@ -1,11 +1,10 @@
 *{
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body{
     background: rgb(4,62,73);
-    background: linear-gradient(360deg, rgb(15, 50, 59) 0%, rgb(5, 26, 32) 100%);
+    background: linear-gradient(360deg, rgb(4,62,73) 0%, rrgb(4,62,73) 100%);
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -19,7 +18,7 @@ body{
     height: 70vi;
     width: 100%;
     margin-top: 0;
-    
+    overflow-x: hidden;
 }
 .fondo {
     position: absolute;
@@ -29,8 +28,9 @@ body{
 }
 
 .section2 {
+    position: absolute;
+    top: 56vw;
     display: flex;
-    margin-top: 19vw;
     justify-content: space-around;
     margin-left: 3vw;
     width: 92vw;
@@ -40,15 +40,16 @@ body{
     border-width: 0.1vw;
     backdrop-filter: blur(8px);
     background-color: rgba(56, 54, 54, 0.5);
-    margin-bottom: 3vw;
 }
 
 
 .section1 {
+    width: 50vw;
+    position: absolute;
+    top: 4vw;
     margin-left: 4vw;
     white-space: pre-line;
-    max-width: 50vw;
-    max-height: 60vw;
+    max-width: 90vw;
     border: solid;
     border-width: 0vw;
     border-radius: 3vw;
@@ -73,7 +74,6 @@ button {
     width: 18vw;
     background-color: #0bb9d8;
     border: none;
-    color: rgb(0, 0, 0);
     padding: 6px 10px;
     text-align: center;
     text-decoration: none;
@@ -86,4 +86,45 @@ button {
 }
 .section1 img {
     margin-left: 2vw;
+}
+
+@media screen and (orientation: portrait) {
+    .main {
+
+        height: 250vw;
+    }
+    .fondo{
+        position: absolute;
+        right: -90vi;
+        transform: scaleX(-1);
+        justify-self: flex-start;
+        width: 60rem;
+    }
+    .section2 {
+        top: 100vw;
+        display: flex;
+        width: 50vw;
+        flex-direction: column;
+        margin-left: 26vw;
+    }
+    .section2 img {
+        margin-bottom: 9vw;
+    }
+    .section1 {
+        width: 100vw;
+    }
+    .section1 h1 {
+        text-align: center;
+        font-size: 10vw;
+    }
+    .section1 p {
+        text-align: center;
+        font-size: 4vw;
+    }
+    button {
+        width: 22vw;
+        height: 7vw;
+        font-size: 2.7vw;
+        margin-left: 34vw;
+    }
 }
