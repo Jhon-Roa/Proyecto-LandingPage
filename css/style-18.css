@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    white-space: pre-line;
+
+}
+.section1 {
+    display: flex;
+    justify-content: space-around;
+}
+.section1 h1 {
+
+    font-size: 4.3vw;
+}
+.section1 img {
+    width: 29vw;
+}
+.section1 p {
+    margin-top: 3vw;
+    font-size: 1.7vw;
+}
+button {
+    margin-top: 3vw;
+    align-self: center;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    
+}
+.section2{
+    width: 100%;
+    display: flex;
+    margin-top: 5vw;
+}
+
+.section2 div {
+    width: 20vw;
+    padding-left: 2vw;
+}
+.section2 > .m3 > img {
+    width: 22vw;
+    height: 44vw;
+}
+.m4 img {
+    height: 18vw;
+}
+.m4 {
+    align-self: flex-end;
+    margin-left: 2vw;
+}
+.m1 img {
+    width: 14vw;
+}
+.m2 img {
+    width: 18vw;
+
+}
+.i3 {
+    width: 18vw;
+}
+.i4 {
+    width: 14vw;
+}
+.m5 {
+    align-self: flex-end;
+}
+.i8 {
+    margin-left: 6vw;
+}
+button {
+    margin-top: 4vw;
+    width: 14vw;
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4vw;
+    height: 4.3vw;
+    cursor: pointer;
+    border-radius: 27px;
+
+}
