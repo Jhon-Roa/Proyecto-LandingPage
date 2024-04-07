@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    white-space: pre-line;
+}
+body {
+    background-color: rgb(10, 3, 51);
+    position: relative;
+}
+.section1 h1 {
+    color: aliceblue;
+    font-size: 5vw;
+
+}
+.section1 {
+    margin-left: 5vw;
+}
+.section1 p {
+    color: aliceblue;
+    font-size: 2vw;
+}
+button {
+    margin-top: 1vw;
+    width: 14vw;
+    background-color: #ffffff;
+    border: none;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4vw;
+    height: 4.3vw;
+    cursor: pointer;
+    border-radius: 16px;
+
+}
+.section2 {
+    margin-left: 3vw;
+    display: flex;
+}
+.text {
+    margin-left: 13vw;
+}
+.text h3 {
+    color: aliceblue;
+    font-size: 2.2vw;
+}
+.text p {
+    color: aliceblue;
+    font-size: 1.7vw;
+}
+.j2x {
+    height: 22vw;
+    align-self: flex-end;
+}
+.section3 {
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-around;
+}
+.section3 img {
+    width: 27vw;
+}
+.ar {
+    position: absolute;
+    top: -2vw;
+    left: 53vw;
+    width: 39vw;
+}
+@media screen and (orientation: portrait) {
+    .section1, .section2, .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
