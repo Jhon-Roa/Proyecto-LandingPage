@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+}
+
+body {
+    background-color: #0d0f1b;
+}
+
+.main {
+    background-image: url(../images/images-23/bg.png);
+    background-size: 100% auto;
+    display: grid;
+}
+
+.main__section:nth-child(1) {
+    padding-top: 15vw;
+    padding-left: 4vw;
+    width: 37.5%;
+}
+
+.main__section:nth-child(1)>h1 {
+    font-size: 5vw;
+    margin-bottom: 1vw;
+}
+
+.main__section:nth-child(1)>p {
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.main__section:nth-child(1)>article>button {
+    color: black;
+    font-size: 1vw;
+    width: 37%;
+    height: 3vw;
+
+    border: 0;
+    border-radius: 10px;
+}
+
+.main__section:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+
+    padding: 0 4vw;
+}
+
+.main__section:nth-child(2)>div {
+    margin-bottom: 1.8vw;
+    margin-top: 9vw;
+    padding: 0 10%;
+    background-color: rgba(128, 128, 128, 0.6);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__section:nth-child(2)>div>h1 {
+    font-size: 3.5vw;
+    margin-bottom: 5%;
+}
+
+.main__section:nth-child(2)>div>p {
+    font-size: 1.8vw;
+}
+
+@media (orientation: landscape) {
+    .main {
+        aspect-ratio: 1440/1024;
+    }
+}
+
+@media (orientation: portrait) {
+    .main {
+        min-height: 100vh;
+        background-size: auto 100%;
+        background-position-x: 100%;
+    }
+    
+    .main__section:nth-child(1) {
+        padding-top: 15vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        width: 100%;
+    }
+    
+    .main__section:nth-child(1)>h1 {
+        text-align: center;
+        font-size: 10vw;
+        margin-bottom: 5vw;
+    }
+    
+    .main__section:nth-child(1)>p {
+        text-align: center;
+        font-size: 4.3vw;
+        margin-bottom: 5vw;
+    }
+    
+    .main__section:nth-child(1)>article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main__section:nth-child(1)>article>button {
+        font-size: 4vw;
+        height: 10vw;
+        margin-bottom: 5vw;
+    }
+    
+    .main__section:nth-child(2) {
+        grid-template-columns: none;
+    }
+    
+    .main__section:nth-child(2)>div {
+        padding: 4vw;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+    .main__section:nth-child(2)>div>h1 {
+        font-size: 10vw;
+        margin-bottom: 5%;
+    }
+    
+    .main__section:nth-child(2)>div>p {
+        font-size: 6vw;
+    }
+}
