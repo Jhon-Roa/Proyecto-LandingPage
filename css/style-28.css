@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    white-space: pre-line;
+}
+.section1 {
+    margin-left: 6vw;
+    display: flex;
+}
+.text h1{
+    font-size: 5.3vw;
+}
+.text p {
+    font-size: 2vw;
+}
+.imag {
+
+    display: flex;
+    margin-left: 5vw;
+}
+.img1 {
+    width: 23vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.im2 {
+    width: 23vw;
+    margin-left: 3vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+button {
+    margin-top: 1vw;
+    width: 14vw;
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4vw;
+    height: 4vw;
+    cursor: pointer;
+    border-radius: 27px;
+}
+.section2 {
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 7vw;
+}
+.section2 img {
+    width: 23vw;
+}
+.section2 img:nth-child(1) {
+    border-top-left-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+}
+.section2 img:nth-child(4) {
+    border-top-right-radius: 4vw;
+    border-bottom-right-radius: 4vw;
+}
+
+@media screen and (orientation: portrait) {
+    .section1 {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .section2 {
+        flex-direction: column;
+    }
+    .text h1 {
+        font-size: 14vw;
+        text-align: center;
+    }
+    .text p {
+        font-size: 5vw;
+        text-align: center;
+    }
+    button {
+        width: 26vw;
+        height: 8vw;
+        font-size: 3vw;
+        margin-left: 37vw;
+    }
+    .imag {
+        width: 60vw;
+        flex-direction: column;
+    }
+    .img1 img {
+        width: 60vw;
+    }
+    .img1 {
+        margin-top: 12vw;
+        align-self: center;
+        height: 70vw;
+        margin-bottom: 8vw;
+    }
+    .im2 img {
+        width: 60vw;
+    }
+    .im2 {
+        margin-left: 0;
+        align-self: center;
+        height: 70vw;
+    }
+    .section2{
+        margin-left: 0;
+        align-items: center;
+    }
+    .section2 img {
+        width: 60vw;
+        border-radius: 4vw;
+        margin-bottom: 8vw;
+    }
+}

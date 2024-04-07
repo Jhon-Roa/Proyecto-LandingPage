@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #060a12;
+    background: linear-gradient(360deg, rgb(4,62,73) 0%, rrgb(4,62,73) 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.fondo {
+    filter: blur(0.5px);
+    width: 58.3vw;
+    position: absolute;
+    right: 4vw;
+    z-index: -1;
+}
+.main {
+    display: flex;
+    position: relative;
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    height: 100%;
+}
+.section1 img {
+    width: 33vw;
+}
+.section1{
+    margin-top: 4vw;
+    margin-left: 6vw;
+}
+.section1 h1 {
+    white-space: pre-line;
+    color: aliceblue;
+    font-size: 4vw;
+}
+span {
+    color: rgb(196, 4, 4);
+}
+.section1 p {
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+    color: aliceblue;
+    font-size: 1.7vw;
+    white-space: pre-line;
+}
+button {
+    width: 19vw;
+    background-color: rgb(196, 4, 4);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4vw;
+    height: 4.1vw;
+    cursor: pointer;
+    border-radius: 27px;
+
+}
+.section2 h1 {
+    color: aliceblue;
+}
+.section2 {
+    margin-top: 3vw;
+    margin-left: 6vw;
+    width: 80vw;
+    height: 5vw;
+    position: absolute;
+    top: 48vw;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+
+}
+.section2 div {
+    width: 24vw;
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo transparente con 50% de opacidad */
+    backdrop-filter: blur(5px); /* Valor de difuminado, puedes ajustarlo según tu preferencia */
+    border-top-left-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+}
+
+.section2 div h1 {
+    font-size: 1.7vw;
+    text-align: center;
+}
+@media screen and (orientation: portrait) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .fondo {
+        width: 100vw;
+        top: 140vw;
+    }
+    .section2 {
+        top: 268vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .section1 {
+        margin-left: 0;
+    }
+    .section1 h1{
+        font-size: 10vw;
+        text-align: center;
+    }
+    .section1 img {
+        width: 96vw;
+        margin-left: 1.9vw;
+    }
+    .section1 p {
+        margin-top: 5vw;
+        font-size: 7vw;
+        text-align: center;
+    }
+    button {
+        margin-top: 7vw;
+        width: 40vw;
+        height: 10vw;
+        font-size: 4vw;
+        margin-left: 29vw;
+    }
+    .section2 div {
+        width: 85vw;
+        height: 50vw;
+        margin-bottom: 6vw;
+    }
+    .section2 > div > h1 {
+        font-size: 8vw;
+    }
+    .section2 {
+        margin-top: 120vw;
+        position: static;
+        margin-bottom: 30vw;
+        height: 60vw;
+    }
+    html, body {
+        height: 350vw;
+    }
+}
