@@ -73,4 +73,52 @@ button {
         display: flex;
         flex-direction: column;
     }
+    .section1 h1 {
+        font-size: 7.9vw;
+        text-align: center;
+
+    }
+    .section1 {
+        margin-top: 10vw;
+    }
+    .section1 p {
+        margin-top: 3.5vw;
+        text-align: center;
+        font-size: 5.3vw;
+    }
+    button {
+        margin-left: 33vw;
+        width: 30vw;
+        height: 11vw;
+        font-size: 3.5vw;
+        margin-top: 10vw;
+        margin-bottom: 14vw;
+    }
+    .ar {
+        top: -7vw;
+        left: 1vw;
+        width: 35vw;
+    }
+    .text h3 {
+        font-size: 8vw;
+    }
+    .text {
+        margin-top: 6vw;
+    }
+    .text p {
+        font-size: 4.7vw;
+    }
+    .j2x  {
+        width: 87vw;
+        height: 45vw;
+        align-self: center;
+    }
+    .section3 img {
+        width: 90vw;
+        margin-bottom: 6vw;
+    }
+    .section3 {
+        align-items: center;
+    }
+    
 }
