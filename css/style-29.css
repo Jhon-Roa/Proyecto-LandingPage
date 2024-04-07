@@ -45,10 +45,12 @@
 
     padding: 0 5vw;
     margin-bottom: 5.5vw;
+    margin-top: 10%;
 }
 
 .main__footer>div:nth-child(1) {
     background-image: url(../images/images-29/image-1.png);
+    aspect-ratio: 218.67/168;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -63,6 +65,7 @@
 
 .main__footer>div:nth-child(2) {
     background-image: url(../images/images-29/image-2.png);
+    aspect-ratio: 218.67/168;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -74,6 +77,7 @@
 
 .main__footer>div:nth-child(3) {
     background-image: url(../images/images-29/image-3.png);
+    aspect-ratio: 218.67/168;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -85,6 +89,7 @@
 
 .main__footer>div:nth-child(4) {
     background-image: url(../images/images-29/image-4.png);
+    aspect-ratio: 218.67/168;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -96,6 +101,7 @@
 
 .main__footer>div:nth-child(5) {
     background-image: url(../images/images-29/image-5.png);
+    aspect-ratio: 218.67/168;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -107,6 +113,7 @@
 
 .main__footer>div:nth-child(6) {
     background-image: url(../images/images-29/image-6.png);
+    aspect-ratio: 218.67/168;
     background-size: 100%;
     background-repeat: no-repeat;
 
@@ -179,15 +186,22 @@
     .main__footer>div:nth-child(1) {
         border-start-start-radius: 10%;
         border-end-start-radius: 0;
+        justify-self: end;
     }
     
     .main__footer>div:nth-child(2) {
         border-start-end-radius: 10%;
     }
 
+    .main__footer>div:nth-child(3) {
+        justify-self: end;
+    }
+
     .main__footer>div:nth-child(5) {
         border-end-start-radius: 10%;
+        justify-self: end;
     }
+
     .main__footer>div:nth-child(6) {
         border-end-end-radius: 10%;
         border-start-end-radius: 0;

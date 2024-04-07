@@ -12,6 +12,7 @@
 
     padding: 4vw;
     background-color: #F8F8F8;
+    overflow-x: hidden;
 }
 
 .main__section__1 {
@@ -78,6 +79,7 @@
 .main__section__2 {
     display: grid;
 
+    margin-top: 4vw;
     padding-left: 4vw;
 }
 
@@ -112,6 +114,12 @@
     }
     .main__section__2 {
         grid-template-columns: repeat(4, 1fr);
+    }
+    .main__section__2__cuadro {
+        aspect-ratio: 4/3;
+    }
+    .lorem-cel {
+        display: none;
     }
 }
 
@@ -175,7 +183,7 @@
     .main__section__2 {
         display: grid;
     
-        padding-left: 4vw;
+        padding-right: 4vw;
     }
     
     .main__section__2__cuadro {

@@ -5,9 +5,9 @@
 
 .main {
     width: 100%;
-    min-height: 100vh;
 
     background-image: url(../images/images-39/bg-image.png);
+    aspect-ratio: 1440/1024;
 
     display: grid;
     
@@ -33,6 +33,7 @@
 
 .main__aside:nth-of-type(2)>button {
     border-radius: 40px;
+    border: 0;
 }
 
 .main__footer>section >p {
@@ -85,7 +86,7 @@
     }
 
     .main__aside:nth-of-type(2)>button {
-        height: 3vw;
+        height: 4vw;
         width: 14vw;
 
         align-self: flex-end;
