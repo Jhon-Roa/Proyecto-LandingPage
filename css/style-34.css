@@ -15,6 +15,151 @@
     color: black;
     border-width: 1.4px;
 }
+.sectionas {
+    display: flex;
+
+}
+.text {
+    margin-left: 5vw;
+}
 .section2 {
+    width: 50%;
+    border: solid;
+    color: black;
+    border-width: 1.4px;
+}
+.section3 {
+    width: 50%;
+    border: solid;
+    color: black;
+    border-width: 1.4px;
+}
+.section2 h1 {
+    white-space: pre-line;
+    font-size: 4vw;
+
+}
+.section2 p {
+    margin-bottom: 15%;
+    font-size: 1.4vw;
+    white-space: pre-line;
     
+
+}
+.tabl {
+    margin-left: 7%;
+    border: solid;
+    width: 82%;
+    height: 36%;
+    border-radius: 4vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+    align-items: center;
+}
+.tabl1, .tabl2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.tabl1 h1, .tabl2 h1 {
+    margin-top: 1%;
+    font-size: 1.5vw;
+}
+.tabl1 p, .tabl2 p {
+    font-size: 1.2vw;
+}
+
+.barra {
+    height: 0.2vw;
+    width: 38%;
+    margin-bottom: 16%;
+}
+
+button {
+    margin-top: 1%;
+    width: 12vw;
+    background-color: #4e3a3a;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2vw;
+    height: 3vw;
+    cursor: pointer;
+    border-radius: 34px;
+    box-shadow: 0.4vw 0.4vw  rgb(8, 8, 7); /* offsetX offsetY blurRadius spreadRadius color */
+}
+.section3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3%;
+    aspect-ratio: 656/760;
+}
+.section3>div:nth-child(1) {
+    position: relative;
+}
+.section3>div:nth-child(1)>img {
+    position: absolute;
+    width: 80%;
+    left: 12%;
+}
+
+
+.section3>div:nth-child(3) {
+    background-image: url(../images/images-34/Rectangle\ 58.png);
+    background-size: cover;
+    background-position: center;
+    grid-row: span 2;
+}
+.section3>div:nth-child(2) {
+    background-image: url(../images/images-34/Rectangle\ 59.png);
+    background-size: cover;
+    background-position: center;
+}
+.section3>div:nth-child(4) {
+    background-image: url(../images/images-34/Rectangle\ 60.png);
+    background-size: cover;
+    background-position: center;
+}
+.section3>div:nth-child(5) {
+    background-image: url(../images/images-34/Rectangle\ 61.png);
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (orientation: portrait) {
+    .sectionas {
+        flex-direction: column;
+    }
+    .section2, .section3 {
+        width: 100%;
+    }
+
+    .section1 h1 {
+        font-size: 9vw;
+        padding-bottom: 5%;
+    }
+    .section2 {
+        display: flex
+        flex
+    }
+    .section2 h1 {
+        font-size: 7vw;
+    }
+    .section2 p {
+        font-size: 4vw;
+    }
+    button {
+        width: 40%;
+        height: 33%;
+        font-size: 2vw;
+    }
+    .tabl {
+        margin-top: 11%;
+        margin-left: 0;
+        margin-bottom: 7%;
+    }
 }
