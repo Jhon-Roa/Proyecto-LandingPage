@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.main{
+    padding: 3%;
+}
+.section1 {
+    font-size: 3vw;
+    text-align: center;
+}
+.section1 {
+    border: solid;
+    color: black;
+    border-width: 1.4px;
+}
+.section2 {
+    
+}
