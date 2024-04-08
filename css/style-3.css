@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main {
+    padding: 5% 3%;
+
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.main__section:nth-of-type(1), .main__section:nth-of-type(2) {
+    margin-bottom: 20%;
+}
+
+.main__section>h1 {
+    font-size: 6vw;
+}
+
+.main__section:nth-of-type(2) {
+    width: 90%;
+}
+
+.main__section>p {
+    margin-top: 1.5%;
+    font-size: 2.1vw;
+    margin-bottom: 5%;
+}
+
+.main__section>button {
+    width: 28%;
+    height: 3vw;
+    border-radius: 15px;
+    border: 0;
+
+    background-color: black;
+    color: white;
+    font-size: 1.7vw;
+}
+
+.main__section:nth-of-type(3) {
+    grid-column: span 2;
+    aspect-ratio: 1313/732;
+
+    background-image: url(../images/images-3/hero\ Image.png);
+    background-size: cover;
+}
