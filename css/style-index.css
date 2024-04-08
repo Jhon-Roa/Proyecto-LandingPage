@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    row-gap: 0.5%;
+}
+
+a {
+    text-align: center;
+    width: 98%;
+    height: 10vw;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+
+    display: grid;
+    align-items: center;
+
+    color: black;
+    font-size: 2vw;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3)
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: 0.2s linear;
+}
+
+@media (orientation: portrait) {
+    a {
+        height: 20vw;
+        font-size: 4vw;
+    }
+}
